@@ -747,8 +747,8 @@ img.alignright,
 --------------------------------------------- */
 
 .entry-title {
-  font-size: 36px;
-  line-height: 1;
+  font-size: 32px;
+  line-height: 1.5;
 }
 
 .entry-title a,
@@ -891,7 +891,7 @@ Site Header
 
 .title-area {
   float: left;
-  padding: 12px 0;
+  padding: 27px 0;
   width: 35%;
 }
 
@@ -1371,7 +1371,7 @@ Content Area
 }
 
 .archive-pagination li a {
-  background-color: #222;
+  background-color: rgba(48,32,69,1);
   border-radius: 3px;
   color: #fff;
   cursor: pointer;
