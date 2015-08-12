@@ -558,7 +558,7 @@ ul.menu li.sfHover ul,
 	box-sizing: border-box;
 	float: left;
 	padding: 0 30px;
-	width: 33%;
+	/*width: 33%;*/
 }
 
 .fabricated-home .featuredpage img,
@@ -2742,4 +2742,96 @@ pre {
 		text-align: left;
 	}
 
+}
+
+
+
+/* Custom Styles - Tim - August 2015 */
+
+/*
+	Header
+*/
+.site-title { margin-top: 25px; }
+.site-description { display: none; }
+
+/*
+	Blog Posts on Home Page
+*/
+.fabricated-home .featuredpost .entry {
+	height: auto;
+  float: left;
+  width: 28%;
+  margin-right: 8%;
+}
+.fabricated-home .featuredpost .entry:last-child {
+	margin-right: 0 !important;
+}
+
+/* 
+	Featured Projects on Home Page
+*/
+.fabricated-home .home-bottom .featuredpost .entry {
+	height: auto;
+	float: left;
+	margin-right: 20px;
+	width: 150px;
+}
+.fabricated-home .featuredpost .entry h2 {
+  line-height: .75;
+  margin-top: -25px;
+}
+.fabricated-home .featuredpost .entry a {
+	font-family: 'Sanchez', serif;
+	font-size: 15px;
+}
+
+
+/*
+	Custom Fonts
+*/
+.wrap .widget-area h4 {
+  font-size: 28px;
+  text-transform: inherit;
+	font-family: 'Sacramento', cursive;
+}
+
+/*
+	Custom Home Page
+*/
+
+.homeTop {
+	margin: 12px 0 6px 0;
+	overflow: hidden;
+}
+.homeTop .htLeft {
+  float: left;
+  width: 61.4%;
+}
+.homeTop .htRight {
+  float: right;
+  width: 37.5%;
+  margin-left: 1.1%;
+}
+.homeTop .htRight .imgBlock {
+	margin-bottom: 2.9%;
+	float: left;
+}
+.homeTop .htRight .imgBlock img { float: left; }
+.homeTop .htRight .imgBlock:last-child {
+	margin-bottom: 0;
+}
+
+.homeTop .ibLarge { max-width: 700px; }
+.homeTop .ibSmall { max-width: 428px; }
+
+
+/*
+	Footer
+*/
+
+.site-footer .creds {
+	float: none; 
+  text-align: center;
+  width: 100%;
+  text-transform: initial;
 }

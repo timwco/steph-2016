@@ -107,9 +107,8 @@ function fabricated_post_info_filter( $post_info ) {
 	if ( ! is_page() ) {
 	    $post_info = '
 	    <div class=\'date-info\'>' .
-	    	__( 'posted on', 'fabricated' ) .
-		    ' [post_date format="F j, Y" before="<span class=\'date\'>" after="</span>"] ' .
-		    __( 'by', 'fabricated' ) . ' [post_author_posts_link] [post_edit]
+	    	__( 'published', 'fabricated' ) .
+		    ' [post_date format="F j, Y" before="<span class=\'date\'>" after="</span>"] ' . '
 	    </div>
 	    <div class="comments">
 	    	[post_comments]
@@ -167,8 +166,8 @@ add_filter( 'genesis_footer_output', 'fabricated_footer_output_filter', 10, 3 );
 function fabricated_footer_output_filter( $output, $creds ) {
 	$backtotop_text = '[footer_backtotop]';
 	$creds_start = 'Copyright [footer_copyright] ';
-	$creds_end = '| <a href="http://thepixelista.com/themes/fabricated/">Fabricated theme</a> by <a href="http://thepixelista.com">The Pixelista</a> | Built on the <a href="http://www.studiopress.com/" target="_blank">Genesis Framework</a>';
-	$output = '<div class="footer"><div class="creds">' . $creds_start . $creds_end . '</div></div><div class="gototop">' . $backtotop_text . '</div>';
+	$creds_end = '<a href="http://stephwhitacre.com">Steph Whitacre</a> | Built on the <a href="http://www.studiopress.com/" target="_blank">Genesis Framework</a> | Published via <a href="http://desk.pm/" target="_blank">Desk</a>';
+	$output = '<div class="footer"><div class="creds">' . $creds_start . $creds_end . '</div></div>';
 	return $output;
 }
 
@@ -206,3 +205,28 @@ genesis_register_sidebar( array(
 	'name'			=> __( 'Home - Bottom', 'fabricated' ),
 	'description'	=> __( 'This is the bottom section of the home page.', 'fabricated' ),
 ) );
+
+
+//* Projects Custom Post Type
+function projects_register() {
+  $args = array(
+      'label' => __('Projects'),
+      'singular_label' => __('projects'),
+      'public' => true,
+      'show_ui' => true,
+      'show_in_menu' => true,
+      'has_archive' => true,
+      'capability_type' => 'page',
+      'hierarchical' => true,
+      '_builtin' => false,
+      'supports' => array('title','editor','thumbnail', 'page-attributes', 'genesis-seo'),
+      'rewrite' => array('slug'=>'projects','with_front'=>false),
+      'menu_icon' => 'dashicons-welcome-widgets-menus'
+    );
+  register_post_type( 'projects' , $args );
+  flush_rewrite_rules();
+}
+add_action('init', 'projects_register');
+
+
+

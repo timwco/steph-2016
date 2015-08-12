@@ -37,10 +37,29 @@ function fabricated_home_genesis_meta() {
 
 // Display the slider section
 function fabricated_home_slider() {
-	genesis_widget_area( 'home-slider', array(
-		'before' => '<div class="home-slider widget-area">',
-		'after' => '</div>',
-	) );
+	// genesis_widget_area( 'home-slider', array(
+	// 	'before' => '<div class="home-slider widget-area">',
+	// 	'after' => '</div>',
+	// ) );
+	?>
+
+		<section class="homeTop">
+			<div class="htLeft">
+				<div class="imgBlock ibLarge">
+					<a href="http://stephwhitacre.com/blog/"><img src="http://localhost/Steph/wp-content/uploads/2015/08/largeBanner.png"></a>
+				</div>
+			</div>
+			<div class="htRight">
+				<div class="imgBlock ibSmall">
+					<a href="http://stephwhitacre.com/projects/the-volunteer-project/"><img src="http://localhost/Steph/wp-content/uploads/2015/08/bookLong.png"></a>
+				</div>
+				<div class="imgBlock ibSmall">
+					<a href="http://stephwhitacre.com/cannonball/"><img src="http://placehold.it/856x288"></a>
+				</div>
+			</div>
+		</section>
+
+	<?php
 }
 
 // Display the middle section
