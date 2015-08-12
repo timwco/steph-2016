@@ -2835,3 +2835,34 @@ pre {
   width: 100%;
   text-transform: initial;
 }
+
+
+/*
+	Portfolio Page
+*/
+
+.projectWrapper {
+	padding: 50px 0;
+}
+.project {
+	float: left;
+	width: 33%;
+	text-align: center;
+	margin-bottom: 25px;
+}
+.project h3 {
+	margin-top: 15px;
+	font-size: 15px;
+}
+.project h3 a {
+
+}
+
+.project-piece {
+	position: relative;
+}
+.moreProjects {
+	position: absolute;
+	top: 0;
+	right: 0;
+}

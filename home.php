@@ -54,7 +54,7 @@ function fabricated_home_slider() {
 					<a href="http://stephwhitacre.com/projects/the-volunteer-project/"><img src="http://localhost/Steph/wp-content/uploads/2015/08/bookLong.png"></a>
 				</div>
 				<div class="imgBlock ibSmall">
-					<a href="http://stephwhitacre.com/cannonball/"><img src="http://placehold.it/856x288"></a>
+					<a href="http://stephwhitacre.com/cannonball/"><img src="http://localhost/Steph/wp-content/uploads/2015/08/cannonballNew.png"></a>
 				</div>
 			</div>
 		</section>
