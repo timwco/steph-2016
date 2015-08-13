@@ -215,7 +215,7 @@ function projects_register() {
       'public' => true,
       'show_ui' => true,
       'show_in_menu' => true,
-      'has_archive' => true,
+      'has_archive' => false,
       'capability_type' => 'page',
       'hierarchical' => true,
       '_builtin' => false,

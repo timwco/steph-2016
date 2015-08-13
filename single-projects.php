@@ -16,7 +16,7 @@ function custom_do_grid_loop() {
   // Intro Text (from page content)
   echo '<div class="page-entry entry project-piece">';
   echo '<h1 class="entry-title">'. get_the_title() .'</h1>';
-  echo '<a class="moreProjects" href="/projects">See More Projects -></a>';
+  echo '<a class="moreProjects" href="/projects">See More Projects &raquo;</a>';
   echo '<div class="entry-content projectWrapper">' . get_the_content() ;
 
   if( have_posts() ):

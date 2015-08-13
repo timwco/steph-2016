@@ -2862,7 +2862,99 @@ pre {
 	position: relative;
 }
 .moreProjects {
-	position: absolute;
-	top: 0;
-	right: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-style: italic;
+  font-size: 13px;
 }
+
+
+/*
+	Social Nav
+*/
+
+.menu-primary li.social-nav {
+  float: right;
+  margin-top: 14px;
+  margin-right: 15px;
+}
+.social-nav a, .menu-primary li.social-nav a:hover {
+  text-indent: -999999px;
+  display: block;
+  background-size: 25px 25px;
+  background-repeat: no-repeat;
+  padding: 5px 0;
+  width: 25px;
+}
+
+.nav-facebook a, .menu-primary li.nav-facebook a:hover { background-image: url(images/facebook.png); }
+.nav-twitter a, .menu-primary li.nav-twitter a:hover { background-image: url(images/twitter.png); }
+.nav-instagram a, .menu-primary li.nav-instagram a:hover { background-image: url(images/instagram.png); }
+
+
+
+/*
+	Custom Responsive Designs
+*/
+
+@media only screen and (max-width: 1200px) {
+
+	.fabricated-home .featuredpost .entry {
+	  clear: none;
+	}
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+	.menu-primary li.social-nav {
+	  margin-top: 6px;
+	  height: 20px;
+	  overflow: hidden;
+	  margin-bottom: 7px;
+	}
+
+	.social-nav a, .menu-primary li.social-nav a:hover {
+	  background-size: 20px 20px;
+	  background-repeat: no-repeat;
+	  padding: 5px 0;
+	  width: 20px;
+	}
+
+}
+
+@media only screen and (max-width: 800px) {
+
+	.project {
+		float: none;
+		width: 100%;
+		text-align: center;
+		margin-bottom: 25px;
+	}
+
+	.moreProjects { display: none; }
+
+	.menu-primary li.social-nav {
+		float: left;
+		width: 15px;
+		margin-left: 18px;
+		overflow: initial;
+		height: auto;
+	}
+
+	.homeTop .htLeft, .homeTop .htRight { width: 100%; float: none; margin-left: 0; }
+	.homeTop .ibSmall, .homeTop .ibLarge { max-width: 100%; }
+
+	.fabricated-home .featuredpost .entry {
+	  float: none;
+	  width: 100%;
+	}
+
+	.fabricated-home .home-bottom .featuredpost .entry {
+		float: none;
+		width: 100%;
+	}
+
+}
+
