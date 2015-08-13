@@ -2893,6 +2893,14 @@ pre {
 .nav-instagram a, .menu-primary li.nav-instagram a:hover { background-image: url(images/instagram.png); }
 
 
+.home-cta .textwidget p {
+	float: left;
+	width: 80%;
+}
+.home-cta .textwidget a.alignright {
+	margin-top: 0;
+}
+
 
 /*
 	Custom Responsive Designs
@@ -2920,6 +2928,14 @@ pre {
 	  background-repeat: no-repeat;
 	  padding: 5px 0;
 	  width: 20px;
+	}
+
+	.home-cta .textwidget p {
+		float: none;
+		width: 100%;
+	}
+	.home-cta .textwidget a.alignright {
+		margin-top: 15px;
 	}
 
 }
