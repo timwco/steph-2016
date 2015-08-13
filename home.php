@@ -46,15 +46,15 @@ function fabricated_home_slider() {
 		<section class="homeTop">
 			<div class="htLeft">
 				<div class="imgBlock ibLarge">
-					<a href="http://stephwhitacre.com/blog/"><img src="http://localhost/Steph/wp-content/uploads/2015/08/largeBanner.png"></a>
+					<a href="http://stephwhitacre.com/blog/"><img src="http://stephwhitacre.com/wp-content/uploads/2015/08/largeBanner.jpg"></a>
 				</div>
 			</div>
 			<div class="htRight">
 				<div class="imgBlock ibSmall">
-					<a href="http://stephwhitacre.com/projects/the-volunteer-project/"><img src="http://localhost/Steph/wp-content/uploads/2015/08/bookLong.png"></a>
+					<a href="http://stephwhitacre.com/projects/the-volunteer-project/"><img src="http://stephwhitacre.com/wp-content/uploads/2015/08/bookLong.png"></a>
 				</div>
 				<div class="imgBlock ibSmall">
-					<a href="http://stephwhitacre.com/cannonball/"><img src="http://localhost/Steph/wp-content/uploads/2015/08/cannonballNew.png"></a>
+					<a href="http://stephwhitacre.com/cannonball/"><img src="http://stephwhitacre.com/wp-content/uploads/2015/08/cannonballNew.png"></a>
 				</div>
 			</div>
 		</section>
