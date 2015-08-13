@@ -8,7 +8,8 @@ add_action( 'genesis_meta', 'fabricated_home_genesis_meta' );
  *
  */
 function fabricated_home_genesis_meta() {
-	if ( is_active_sidebar( 'home-slider' ) || is_active_sidebar( 'home-top' ) || is_active_sidebar( 'home-cta' ) || is_active_sidebar( 'home-middle' ) || is_active_sidebar( 'home-twitter' ) || is_active_sidebar( 'home-bottom' ) ) {
+	// if ( is_active_sidebar( 'home-slider' ) || is_active_sidebar( 'home-top' ) || is_active_sidebar( 'home-cta' ) || is_active_sidebar( 'home-middle' ) || is_active_sidebar( 'home-twitter' ) || is_active_sidebar( 'home-bottom' ) ) {
+	
 		// Force a full width layout
 		add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_full_width_content' );
 
@@ -32,7 +33,7 @@ function fabricated_home_genesis_meta() {
 		if ( is_active_sidebar( 'home-twitter' ) || is_active_sidebar( 'home-bottom' ) ) {
 			add_action( 'genesis_loop', 'fabricated_home_bottom' );
 		}
-	}
+	// }
 }
 
 // Display the slider section
