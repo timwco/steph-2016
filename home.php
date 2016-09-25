@@ -52,11 +52,14 @@ function fabricated_home_slider() {
 			</div>
 			<div class="htRight">
 				<div class="imgBlock ibSmall">
-					<a href="https://www.amazon.com/Pursuit-Grace-Holmes-Tobey-Lockwood/dp/0996228756/"><img src="http://stephwhitacre.com/wp-content/uploads/2016/09/leo.jpg"></a>
+					<a href="http://stephwhitacre.com/kenya"><img src="http://stephwhitacre.com/wp-content/uploads/2016/02/kenya-steph.png"></a>
 				</div>
 				<div class="imgBlock ibSmall">
 					<a href="http://stephwhitacre.com/projects/the-volunteer-project/"><img src="http://stephwhitacre.com/wp-content/uploads/2015/08/bookLong.png"></a>
 				</div>
+<!-- 				<div class="imgBlock ibSmall">
+					<a href="http://stephwhitacre.com/cannonball/"><img src="http://stephwhitacre.com/wp-content/uploads/2015/08/cannonballNew.png"></a>
+				</div> -->
 			</div>
 		</section>
 
